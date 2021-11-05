@@ -55,7 +55,7 @@ public class kNN_test {
             tmp.close();
         }
 
-        int NUM_NEIGHBOUR = 1; // UPDATE the k value!!!
+        int NUM_NEIGHBOUR = 22; // UPDATE the k value!!!
 
         double[][] dist_label = new double[TRAIN_SIZE][2]; // distance array, no of columns+1 to accomodate distance
         double[] y = new double[FEATURE_SIZE];
